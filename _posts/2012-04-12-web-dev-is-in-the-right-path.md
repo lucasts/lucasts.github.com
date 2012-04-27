@@ -44,8 +44,8 @@ But remember the cited tweet in the preface, Is that good or bad?
 
 Let's recape web development today:
 
-* A script language(PHP, Rails, Python) with a full stack MVC(Symfony, Zend, Rails, Django....) framework on the server side
-* A MVC framework on the client side (Backbone, Ember, Knockouts...)
+- A script language(PHP, Rails, Python) with a full stack MVC(Symfony, Zend, Rails, Django....) framework on the server side
+- A MVC framework on the client side (Backbone, Ember, Knockouts...)
     
 Yes, Mister hater back there, other methods exists, some looking old and other new, but on average is that.
 
@@ -87,15 +87,10 @@ solutions , scenarios.  Here are some random thoughts I'm thinking lately about 
 
 - If sharing code directly between client and server are the final solution, we will need to always use javascript in the server, so that 
 is not a real solution.
-
 - Some kind of standard(REST?) for better mapping between sides? Things like data attributes calling back server methods maybe.
-
 - Validation: Time for a standardized way between vendors with callbacks on servers?
-
 - http itself is a problem to apps in web, websockets would be a solution for it, let's see if vendors will implement it.
-
 - Should client(browser) knows how are the entities on a given page and know how to update/sync with the server?
-
 - How make development fast and easier without locking down web itself and not so flexible like today.
 
 
