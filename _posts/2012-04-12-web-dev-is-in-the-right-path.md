@@ -43,7 +43,7 @@ implement.
 But remember the cited tweet in the preface, Is that good or bad?
 
 Let's recape web development today:
-
+- A database
 - A script language(PHP, Rails, Python) with a full stack MVC(Symfony, Zend, Rails, Django....) framework on the server side
 - A MVC framework on the client side (Backbone, Ember, Knockouts...)
     
