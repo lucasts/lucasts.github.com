@@ -6,7 +6,7 @@ title: Is Web Dev in the right path?
 {{ page.title }}
 ================
 
-<p class="meta">12 Apr 2012 -  Rio</p>
+<p class="meta">12 Apr 2012 -  Rio de Janeiro</p>
 
 Preface
 -------
@@ -17,7 +17,7 @@ Some days ago, [I twitted about having MVC in both sides of development, server 
 
 days after that I  was reading about [Meteor](http://meteor.com/).
 
-Can things like Meteor be  the solution?
+Can things like [Meteor](http://meteor.com/) be  the solution?
 
 Wait, is there any problem that need a solution?
 
@@ -37,15 +37,16 @@ programming patterns(think Rails 1 and Rails 3) to web development.
 
 As today, a new project for a web application can be started fast, but with good pratices both server and client side.
 You pick some language and a framework that fits your taste to do the server side code and do the same in the client, 
-finding a good MVC JS framework. Libs like Backbone, Ember.js besides some differences they try to bring a better code separation on client
+finding a good MVC JS framework. Libs like [Backbone](http://documentcloud.github.com/backbone/), [Ember.js](http://emberjs.com/) besides some differences they try to bring a better code separation on client
 implementation.
 
 But remember the cited tweet in the preface, Is that good or bad?
 
 Let's recape web development today:
-*A database
-*A script language with a full stack MVC framework on the server side
-*A MVC framework on the client side
+
+1) A database
+2) A script language with a full stack MVC framework on the server side
+3) A MVC framework on the client side
     
 Yes, Mister hater back there, other methods exists, some looking old and other new, but on average is that.
 
@@ -69,10 +70,10 @@ Now we had a better way to do web development, and with the help of those framew
 But, as soon we fix some problem we need to move to another and here are two that will be our concern for the next years. 
 
 - Duplication of code: We need to reproduce much of the server code in client
-- Sync of Data: With dup of code, we are using more sophisticated data structures in client we need regulary sync with the server, 
+- Sync of Data: With dup of code, we are using more sophisticated data structures in client we need regularly sync with the server, 
 and resolve conflicts if any.
 
-Meteor try to solve this using node.js under the hood, sockets, and code sharing between server and client.
+Meteor try to solve this using [node.js](http://nodejs.org/) under the hood, sockets, and code sharing between server and client.
 
 I don't take a look yet to see if it really is good and solve the problem the way they sell it, but the idea itself is very good and match what 
 I was think when wrote the tweet.
@@ -85,7 +86,7 @@ solutions , scenarios.  Here are some random thoughts I'm thinking lately about 
 
 - If sharing code directly between client and server are the final solution, we will need to always use javascript in the server, so that 
 is not a real solution.
-- Some kind of standard(REST?) for better mapping between sides? Things like data attributes calling back server methods maybe.
+- Some kind of standard([REST](http://pt.wikipedia.org/wiki/REST)?) for better mapping between sides? Things like data attributes calling back server methods maybe.
 - Validation: Time for a standardized way between vendors with callbacks on servers?
 - http itself is a problem to apps in web, websockets would be a solution for it, let's see if vendors will implement it.
 - Should client(browser) knows how are the entities on a given page and know how to update/sync with the server?
