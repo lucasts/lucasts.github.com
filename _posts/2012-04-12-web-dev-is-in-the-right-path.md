@@ -17,7 +17,7 @@ Some days ago, [I twitted about having MVC in both sides of development, server 
 
 days after that I  was reading about [Meteor](http://meteor.com/).
 
-Can be things like Metheor the solution?
+Can things like Meteor be  the solution?
 
 Wait, is there any problem that need a solution?
 
@@ -25,27 +25,27 @@ Wait, is there any problem that need a solution?
 The Old, The New and What we are doing today
 --------------------------------------------
 
-Bring some history to the table, in the not so old time ago, when web development was growing, the client side was not that important 
-in the view of devevelopers and a good mess of HTML, JS, CSS, Tables and so on was not major problem.
+Bringing some history to the table, in a not so long time ago, when web development was growing, the client side was not that important 
+in developers point of view and a big mess of HTML, JS, CSS, Tables and so on was not major problem.
 
 On the server side, we can split things in amateur to regular business using vastly PHP and ASP solutions and Java on bigger companies/apps.
 
-Some years of transition,  in the client we walk across many movements, like tableless, semantic web, better javascripts libraries.  In the server, 
+After some years of transition,  in the client-side, we walk across many movements, like tableless, semantic web, better javascripts libraries.  In the server, 
 frameworks start to grow in maturity, making development a lot faster. Nice things came out like Rails, Django and then some small revolutions are poiting
-to a good mix of fast protoypes with those frameworks and a concern about HOW to make things better with speed.  That bring a good sauce of
+to a good mix of fast prototypes with those frameworks and a concern about HOW to make things better with speed.  This bring 
 programming patterns(think Rails 1 and Rails 3) to web development.
 
-As today, a new project for a web application can be started fast but with good pratices both server and client side.
-You pick some languague and a framework that fits your taste to do the server side code and do the same in the client, 
-finding a good MVC JS framework. Libs like Backbone, Ember.js besides some differences they try to bring a better separation of code on client
-implement.
+As today, a new project for a web application can be started fast, but with good pratices both server and client side.
+You pick some language and a framework that fits your taste to do the server side code and do the same in the client, 
+finding a good MVC JS framework. Libs like Backbone, Ember.js besides some differences they try to bring a better code separation on client
+implementation.
 
 But remember the cited tweet in the preface, Is that good or bad?
 
 Let's recape web development today:
-- A database
-- A script language(PHP, Rails, Python) with a full stack MVC(Symfony, Zend, Rails, Django....) framework on the server side
-- A MVC framework on the client side (Backbone, Ember, Knockouts...)
+*A database
+*A script language with a full stack MVC framework on the server side
+*A MVC framework on the client side
     
 Yes, Mister hater back there, other methods exists, some looking old and other new, but on average is that.
 
@@ -61,8 +61,6 @@ achieve greater way for doing web.
 Back to the future
 ------------------
 
-look the begin og my tweet
-
 <blockquote>"We ended up with MVC in both server and client"</blockquote>
 
 That was wrong, we not ended with MVC. We reach this point and we can think it as a good milestone on web development history.
@@ -71,12 +69,12 @@ Now we had a better way to do web development, and with the help of those framew
 But, as soon we fix some problem we need to move to another and here are two that will be our concern for the next years. 
 
 - Duplication of code: We need to reproduce much of the server code in client
-- Sync of Data: With dup of code, we are using more sophisticated data structures in client we need to time to time sync with the server, 
+- Sync of Data: With dup of code, we are using more sophisticated data structures in client we need regulary sync with the server, 
 and resolve conflicts if any.
 
 Meteor try to solve this using node.js under the hood, sockets, and code sharing between server and client.
 
-I don't take a look yet to see if really is good and solve the problem the way they sell, but the idea itself is very good and match what 
+I don't take a look yet to see if it really is good and solve the problem the way they sell it, but the idea itself is very good and match what 
 I was think when wrote the tweet.
 
 That's it?
@@ -92,6 +90,8 @@ is not a real solution.
 - http itself is a problem to apps in web, websockets would be a solution for it, let's see if vendors will implement it.
 - Should client(browser) knows how are the entities on a given page and know how to update/sync with the server?
 - How make development fast and easier without locking down web itself and not so flexible like today.
+- Yet on Infrastructure, how to do it in a safe way.
+- How to handle correctly different bandwidth
 
 
 Conclusion
@@ -100,6 +100,6 @@ Conclusion
 Web development is moving fast, from client mess years ago we made a better way to do things. We are reaching the maximum that 
 we can extract from the infrastructure(http, browsers, languages), but some is there yet to be improved. 
 
-How in the next years we will develpment without duplication of code and maintaing flexibility of choices
+How will we develop in the next years without duplication of code and maintaining choices flexibility? 
 
 Right path? Well, better it be.
