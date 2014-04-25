@@ -1,21 +1,43 @@
 ---
 layout: default
 ---
-<div id="post">
-{{ content }}
-</div>
 
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-    var disqus_shortname = 'lucasts'; // required: replace example with your forum shortname
+<main class="content">
+    <section class="container">
+      <div class="row-fluid">
+        <article class="home-icon">
+        <a href="/">
+          <i class="icon-home"></i>
+        </a>
+      </article>
+      <article class="post">
+        <h2 class="content">{{page.title}}</h2>
+        <h5>{{ page.date | date: "%d %B %Y" }}</h5>
+        <section>
+          {{ content }}
+          <hr>
+        </section>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            var disqus_shortname = 'lucasts';
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+        <section style="margin-bottom: 2em;">
+          {% if page.previous %}
+              <a rel="prev" class="a-hover"href="{{ page.previous.url }}"><i class="icon-arrow-left"></i> {{ page.previous.title }}</a>
+            {% endif %}
+            {% if page.next %}
+              <a rel="next" style="float:right" class="a-hover"href="{{ page.next.url }}">{{ page.next.title }} <i class="icon-arrow-right"></i></a>
+          {% endif %}
+        </section>
+      </article>
+    </div>
+  </section>
+</main>
