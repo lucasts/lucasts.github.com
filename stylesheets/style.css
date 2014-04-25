@@ -1711,7 +1711,7 @@ main.container,main.content>.container {
   font-size:4.1em;
   margin-top:1em;
   letter-spacing:.04em;
-  color:#81b71a;
+  color:#BE4116;
 }
 
 .content .sub-title {
@@ -1742,7 +1742,7 @@ main.container,main.content>.container {
 
 .entries h3 {
   font-family:Raleway;
-  color:#81b71a;
+  color: #BE4116;
   font-weight:normal;
   font-size:2em;
   margin-top:.2em;
@@ -1773,7 +1773,7 @@ main.container,main.content>.container {
   font-size:2.2em;
   margin:1.9em 0 -1.1em 1em;
   float:left;
-  background-color:#81b71a;
+  background-color: #BE4116;
   padding:.65em;
   -webkit-border-radius:2em;
   -moz-border-radius:2em;
@@ -1804,7 +1804,7 @@ main.container,main.content>.container {
   font-size:5em;
   padding:1.1em 0 .2em;
   letter-spacing:.05em;
-  color:#81b71a;
+  color: #BE4116;
 }
 
 .post h2 span {
