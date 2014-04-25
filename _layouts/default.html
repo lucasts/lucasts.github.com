@@ -2,34 +2,36 @@
 <html>
 
     <head>
-        <title> Lucas Stephanou - {{ page.title }}</title>
+        <title>{% if page.title %} {{ page.title }} {% endif %} -  Lucas Stephanou</title>
         <meta name="author" content="Lucas Stephanou" />
         <meta charset='utf-8' />
         <meta http-equiv="X-UA-Compatible" content="chrome=1" />
         <meta name="description" content="personal home page of Lucas Stephanou" />
+        <link rel="stylesheet" href="/stylesheets/style.css">
+        <!--[if IE 7]>
+          <html class="ie7">
+          <link rel="stylesheet" type="text/css" href="/stylesheets/font-awesome-ie7.min.css">
+        <![endif]-->
+        <!--[if IE 8]><html class="ie8"> <![endif]-->
+          <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+          <![endif]-->
 
-        <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/stylesheet.css">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/icons/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/icons/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/icons/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/images/icons/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="/images/icons/favicon.png">
     </head>
 
     <body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/lucasts/lucasts">GitHub</a>
 
-          <h1 id="project_title">Lucas Stephanou</h1>
-          <h2 id="project_tagline">lucasts</h2>
+  <header>
 
-        </header>
-    </div>
+  </header>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-            {{ content }}
-      </section>
-    </div>
+  {{ content }}
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
@@ -39,8 +41,24 @@
       </footer>
     </div>
 
-    <script type="text/javascript">
 
+  <footer>
+    <div class="container">
+      Inspired by<a href="http://richbray.me/frap/">Frappuccino</a>
+    </div>
+  </footer>
+
+  <!-- Footer
+      ================================================== -->
+
+  <!-- Javascripts
+      ================================================= -->
+  <script src="/javascripts/jquery.min.js"></script>
+  <script src="/javascripts/custom.js"></script>
+
+    <!-- Analytics
+    ================================================== -->
+    <script>
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-4521679-1']);
       _gaq.push(['_setDomainName', 'lucas-ts.com']);
@@ -52,8 +70,7 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
 
-    </script>    
-
+    </script>
 
   </body>
 </html>
