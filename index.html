@@ -12,6 +12,7 @@ title: Lucas Stephanou
           <div class="sub-title">Quase sempre algo sobre desenvolvimento web</div>
         </section>
         <ul class="entries">
+         {{ content }}
         {% for post in paginator.posts %}
           <li>
             <a href="{{ post.url }}">
