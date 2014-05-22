@@ -1,5 +1,9 @@
-auto: true
-server: true
-pygments: true
-markdown: kramdown
-paginate: 5
+name: Lucas Stephanou
+description: Site e blog do desenvolvedor Lucas Stephanou
+url: http://lucas-ts.com
+paginate: 10
+permalink: :title.html
+exclude: ["vendor"]
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
