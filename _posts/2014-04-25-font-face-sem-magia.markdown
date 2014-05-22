@@ -1,10 +1,11 @@
 ---
-published: true
-title: @Font-face sem magia
 layout: post
-tags: [css font frontend]
-categories: [css]
+title: Font-face sem magia
+date:  2014-05-25 01:25:27
+tags: css font frontend
+categories: css
 ---
 
 
 teste
+
