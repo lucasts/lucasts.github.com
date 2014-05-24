@@ -91,7 +91,7 @@ Evitamos assim todos os problemas citados anteriormente e ainda ganhamos renderi
 
 Como dica final: use geradores/conversores como o font-squirrel para facilitar a criação de tipos de arquivos necessarios para cada sistema, no entanto revise sempre como o css é gerado.
 
-O [módulo de fonts do CSS 3](http://www.w3.org/TR/css3-fonts) ainda esta em densenvolvimento, é sempre bom estarmos atentos as mudanças especificação e em como os browsers estão implementando.
+O [módulo de fonts do CSS 3](http://www.w3.org/TR/css3-fonts) ainda esta em densenvolvimento, é sempre bom estarmos atentos as mudanças na especificação e em como os browsers estão implementando.
 
 
 Para uma referencia mais completa, [o tableless tem um artigo](http://tableless.com.br/font-face-fonts-externas-na-web/), onde esse problema já era mencionado em 2010.
