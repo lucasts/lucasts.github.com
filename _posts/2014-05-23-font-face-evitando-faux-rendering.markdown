@@ -9,7 +9,7 @@ categories: css
 
 
 Um dos grandes possibilidades abertas com criação do [CSS level 3](http://www.w3.org/Style/CSS/current-work.en.html) são
-as melhorias na tipografia. E sem dúvida a [regra](https://developer.mozilla.org/en-US/docs/CSS/At-rule) [@font-face](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face) foi um dos marcos dessa evolução. 
+as melhorias na tipografia. E sem dúvida a [regra](https://developer.mozilla.org/en-US/docs/CSS/At-rule) [@font-face](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face) foi um dos marcos dessa evolução.
 
 No entanto, passa despercebido um erro comum em algumas implementações, muitas delas geradas por [ferramentas de automação](http://www.fontsquirrel.com/fonts/open-sans) disseminando ainda mais esse erro.
 
@@ -20,14 +20,14 @@ Ele ocorre quando é dado nomes diferentes para mesma fonte, em declarações di
       font-family: MyFontNameRegular;
       src: local("OpenSans"),
       url(OpenSans.ttf);
-    }    
+    }
     @font-face {
-      font-family: MyFontNameItalic; 
+      font-family: MyFontNameItalic;
       src: local("OpenSans"),
       url(OpenSansItalic.ttf);
     }
     {% endhighlight %}
-    
+
 Posteriormente, essas definições são usadas conforme:
 
     {% highlight css %}
@@ -37,8 +37,8 @@ Posteriormente, essas definições são usadas conforme:
       /*...*/
     }
     {% endhighlight %}
-    
-    
+
+
 O que leva aos problemas:
 
 -  Uso incorreto da regra `@font-face`
@@ -59,20 +59,20 @@ Seguindo a especificação, declaramos a mesma fonte com suas variações em mú
       src: local("OpenSans"),
       url(OpenSans.ttf);
       font-style: normal;
-    }    
+    }
     @font-face {
-      font-family: MyFontName; 
+      font-family: MyFontName;
       src: local("OpenSans"),
       url(OpenSansItalic.ttf);
       font-weight: normal;
       font-style: italic;
     }
     @font-face {
-      font-family: MyFontName; 
+      font-family: MyFontName;
       src: local("OpenSans"),
       url(OpenSansRegularBold.ttf);
       font-weight: bold;
-      font-style: normal;      
+      font-style: normal;
     }
     {% endhighlight %}
 
@@ -85,13 +85,13 @@ Podemos agora usar os recursos nativos para acessar as variantes:
       /*...*/
     }
     {% endhighlight %}
-    
-    
+
+
 Evitamos assim todos os problemas citados anteriormente e ainda ganhamos renderização uniforme em browsers modernos.
 
 Como dica final: use geradores/conversores como o font-squirrel para facilitar a criação de tipos de arquivos necessarios para cada sistema, no entanto revise sempre como o css é gerado.
 
-O [módulo de fonts do CSS 3](http://www.w3.org/TR/css3-fonts) ainda esta em densenvolvimento, é sempre bom estarmos atentos as mudanças na especificação e em como os browsers estão implementando.
+O [módulo de fonts do CSS 3](http://www.w3.org/TR/css3-fonts) ainda esta em desenvolvimento, é sempre bom estarmos atentos as mudanças na especificação e em como os browsers estão implementando.
 
 
 Para uma referencia mais completa, [o tableless tem um artigo](http://tableless.com.br/font-face-fonts-externas-na-web/), onde esse problema já era mencionado em 2010.
