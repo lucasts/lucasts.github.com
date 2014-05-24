@@ -8,7 +8,7 @@ categories: css
 ---
 
 
-Uma dos grandes possibilidades abertas com criação do [CSS level 3](http://www.w3.org/Style/CSS/current-work.en.html) são
+Um dos grandes possibilidades abertas com criação do [CSS level 3](http://www.w3.org/Style/CSS/current-work.en.html) são
 as melhorias na tipografia. E sem dúvida a [regra](https://developer.mozilla.org/en-US/docs/CSS/At-rule) [@font-face](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face) foi um dos marcos dessa evolução. 
 
 No entanto, passa despercebido um erro comum em algumas implementações, muitas delas geradas por [ferramentas de automação](http://www.fontsquirrel.com/fonts/open-sans) disseminando ainda mais esse erro.
