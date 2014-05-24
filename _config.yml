@@ -1,5 +1,5 @@
 name: Lucas Stephanou
-description: Site e blog do desenvolvedor Lucas Stephanou
+description: "notas, idéias e aventuras no desenvolvimento web"
 url: http://lucas-ts.com
 paginate: 10
 permalink: :title.html
