@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Ruby Drops #1: Curto Circuito"
+description: "Curto circuito, ou em inglês _short circuit_ é um interessante recurso de
+escrita de código, que permite refatoração, simples e eficiente."
 date:  2014-06-5 01:25:27
 tags: ruby drops
 categories: ruby
