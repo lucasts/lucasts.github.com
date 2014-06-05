@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ruby Drops #1: Curto Circuito(Short Circuit)
+title: "Ruby Drops #1: Curto Circuito"
 date:  2014-06-5 01:25:27
 tags: ruby drops
 categories: ruby
@@ -19,7 +19,7 @@ No código a seguir, a segunda parte da expressão(`puts 'Oi'`) não sera execut
       var_ou_exp_falsa and puts('Oi')
     {% endhighlight %}
 
-Logo, em código com encadeamento de instruções condicionais como a seguir:
+Desta forma, código com encadeamento de instruções condicionais como a seguir:
 
     {% highlight ruby %}
       has_ring = false
@@ -43,8 +43,11 @@ Pode se reescrito desta forma:
       end
     {% endhighlight %}
 
+No caso acima, a segunda expressão, `at_mordor`, não sera executada, pois a
+primeira expressão `has_ring` é falsa, o suficiente para o interpretador ruby
+considerar toda a instrução falsa e para a execução dela.
 
-Isso também pode aplicado aos operadores `||`/`or`.
+O mesmo pode ser aplicado aos operadores `||`/`or`.
 
 Assim, short-circuit:
 
@@ -53,7 +56,7 @@ Assim, short-circuit:
 
 
 O rubyista atento notou o uso de `and` para controlar o fluxo no primeiro snippet e `&&` na instrução condicional do terceiro.
-Isso se deve a recomendação comum de uso, vinda da diferença de precedência entre as versões textuais e simbólicas
+Isso se deve a recomendação comum de uso, vinda da diferença de precedência entre as versões textuais e simbólicas.
 
 Mais sobre isso no próximo _Drop_.
 
