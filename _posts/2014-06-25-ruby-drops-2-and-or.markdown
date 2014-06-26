@@ -10,9 +10,9 @@ categories: ruby
 
 Um daqueles curiosos casos, gerador de dúvidas e problemas, certamente é a diferença entre os operadores `&&`/`and` e `||`/`or`.
 
-Ja li inúmeros artigos esclarecendo o uso correto, mas tendendo a complicar demais algo que por si só já gera bastante problemas.
+Ja li inúmeros artigos esclarecendo o uso correto, mas tendendo a complicar demais algo que por si só já gera problemas.
 
-Fazendo jus ao nome, *ruby drop*, aqui vai uma resposta simples direta:
+Fazendo jus ao nome, *ruby drop*, aqui vai uma resposta simples e direta:
 
 * `&&` e `||` são operadores booleanos/lógicos, tem precedência alta.
 * `and` e `or` são operadores de fluxo, tem precedência baixa.
@@ -37,7 +37,7 @@ As versões simbólicas(`&&` e `||`) deve ser usadas para operações lógicas, 
       # if verdadeiro se ambos os lados da operação && forem verdadeiros 
       if algum_metodo && metodo2
       
-      # if verdadeiro se um dos lados da operação || for verdadeiro
+      # if verdadeiro se um dos lados da operação || for verdadeiro    
       if algum_metodo || metodo2
     {% endhighlight %}
     
