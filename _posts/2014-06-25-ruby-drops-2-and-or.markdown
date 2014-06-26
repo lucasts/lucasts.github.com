@@ -20,7 +20,7 @@ Fazendo jus ao nome, *ruby drop*, aqui vai uma resposta simples e direta:
 
 O tipo de operador e sua precedência definem como devemos usar cada um. 
 
-As versões textuais(`and` e `or`) deve ser usadas para controlar o fluxo de execução, então se eu quero que algo seja executado em seqüência(`and`) ou de modo alternativo(`or`). Uso as versões textuais:
+As versões textuais(`and` e `or`) devem ser usadas para controlar o fluxo de execução, então se eu quero que algo seja executado em seqüência(`and`) ou de modo alternativo(`or`). Uso as versões textuais:
 
     {% highlight ruby %}
       # rodo a segunda se a primeira for bem sucedida
@@ -31,7 +31,7 @@ As versões textuais(`and` e `or`) deve ser usadas para controlar o fluxo de exe
     {% endhighlight %}
     
 
-As versões simbólicas(`&&` e `||`) deve ser usadas para operações lógicas, também conhecidas como comparações boleanas. 
+As versões simbólicas(`&&` e `||`) usamos para operações lógicas/boleanas. 
 
     {% highlight ruby %}
       # if verdadeiro se ambos os lados da operação && forem verdadeiros 
