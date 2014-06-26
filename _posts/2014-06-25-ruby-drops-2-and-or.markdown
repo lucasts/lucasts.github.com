@@ -42,7 +42,7 @@ As versões simbólicas(`&&` e `||`) usamos para operações lógicas/boleanas.
     {% endhighlight %}
     
 
-Essa explicação é simples mas eficiente, use uma forma para o fluxo da aplicação e outra operações lógicas.
+Essa explicação é simples,  mas eficiente, use uma forma para o fluxo da aplicação e outrapara  operações lógicas.
 
 
 O que achou desse Drop? Quer mais exemplos? Que outros partes do Ruby você tem interesse? Comente aqui embaixo!
