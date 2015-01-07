@@ -4,6 +4,8 @@ url: http://lucas-ts.com
 paginate: 10
 permalink: :title.html
 exclude: ["vendor"]
+gems:
+  - jekyll-sitemap
 markdown: redcarpet
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
