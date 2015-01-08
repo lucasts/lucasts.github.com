@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ruby Drops #3: include vs extend"
-description: "Quais as diferenças e melhoras praticas no uso de include e extend"
+description: "Entenda a diferença entre include e extend, e suas origens."
 date:  2015-01-07 22:36:27
 tags: ruby drops
 categories: ruby
