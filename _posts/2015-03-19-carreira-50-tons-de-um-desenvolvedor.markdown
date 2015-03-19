@@ -35,17 +35,18 @@ consolidar o que a meu ver forma a tríade de um bom engenheiro de software:
 Sim, são itens bastante genéricos, mas isso é bom. Cada um desses pilares pode
 e deve crescer da forma distinta, moldando o perfil e crescimento profissional.
 
-Pegue um desenvolvedor iniciando sua carreira, pode tem bons fundamentos
-técnicos da faculdade ou estudo, um atitudade boa e pouca experiencia.
-Ele é "junior" falando pela nomenclatura de mercado. Ao longo dos anos, trabalhando
+Pegue um desenvolvedor iniciando sua carreiraa por examplo, pode tem bons fundamentos
+técnicos da faculdade ou estudo, uma atitudade boa e pouca ou nenhuma experiencia.
+Um "junior" usando o nome dado no mercado de trabalho. Ao longo dos anos, trabalhando
 em projetos diferentes, em equipes diferentes todas as "barrinhas" irão crescer:
-Nossa desenvolvedor anonimo vai ganhar experiencia, vai melhorar sua atitude.
+Nosso desenvolvedor anonimo vai ganhar experiencia, vai melhorar sua atitude.
 
-Seu caminho para virar um dito senior só vai ser adquirida mantendo o estudo em dia
-e praticando.
+Sua trilha para virar um senior só vai ser adquirida mantendo o estudo em dia
+e praticando o que aprende no dia-a-dia de trabalho.
 
-Leia o [repositório](https://github.com/Codeminer42/CarreiraRuby), apesar do
-nome ser "CarreiraRuby", não tem nada propriamente especializado. É um resumo
-pratico e objetivo para nossas carreiras como desenvolvedores.
+Leia o [repositório](https://github.com/Codeminer42/CarreiraRuby), reflita o
+significado de cada requisito. É saudavel revisarmos nossa carreira e nossos
+planos para ela de tempos em tempos, fazer ajustes.
 
+Quando foi a ultima vez que você pensou em sua carreira?
 
