@@ -307,7 +307,7 @@ h2 small {
 
 ul,ol {
   padding:0;
-  margin:0 0 10px 25px;
+  margin:40px 0 40px 40px;
 }
 
 ul ul,ul ol,ol ol,ol ul {
@@ -1863,7 +1863,7 @@ h3 small,h4 small {
 }
 
 li,dt,dd {
-  line-height:20px;
+  line-height:2em;
 }
 
 dl,pre.prettyprint {
