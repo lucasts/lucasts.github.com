@@ -41,8 +41,8 @@ Um "junior" usando o nome dado no mercado de trabalho. Ao longo dos anos, trabal
 em projetos diferentes, em equipes diferentes todas as "barrinhas" irão crescer:
 Nosso desenvolvedor anonimo vai ganhar experiencia, vai melhorar sua atitude.
 
-Sua trilha para virar um senior só vai ser adquirida mantendo o estudo em dia
-e praticando o que aprende no dia-a-dia de trabalho.
+Sua trilha para virar um senior só vai ser apercorrida mantendo o estudo e
+praticando o que aprende no dia-a-dia de trabalho.
 
 Leia o [repositório](https://github.com/Codeminer42/CarreiraRuby), reflita o
 significado de cada requisito. É saudavel revisarmos nossa carreira e nossos
