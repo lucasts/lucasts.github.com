@@ -1678,7 +1678,8 @@ ul.icons li [class^="icon-"],ul.icons li [class*=" icon-"] {
 }
 
 main.container,main.content>.container {
-  width:50em;
+  width:80%;
+  max-width:800px;
 }
 
 .a-hover,.entries h3,.entries a,.home-icon a {
@@ -1785,9 +1786,6 @@ main.container,main.content>.container {
 }
 
 .post {
-  width:40em;
-  float:right;
-  margin-top:-2em;
 }
 
 .post h5 {
@@ -1812,10 +1810,10 @@ main.container,main.content>.container {
 }
 
 .post section {
-  font-family:georgia,times,serif;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height:1.9em;
-  font-size:1.15em;
-  color:gray;
+  font-size:1.4em;
+  color:#333;
 }
 
 footer .container {
