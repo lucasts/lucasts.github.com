@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Uma rapida olhada no Lotus framework, parte 1"
+title: "Uma olhada no Lotus framework, parte 1"
 description: "Descubra como é criar um projeto com o Lotus, parte 1"
 date:  2015-07-01 10:00:00
 tags: ruby lotus
