@@ -200,6 +200,7 @@ end
 ```
 
 e atualize o bloco informando os campos que queremos para banda:
+
 ``` ruby
 mapping do
   collection :bands do
